@@ -1,0 +1,15 @@
+# Variables d'environnement / secrets
+.env
+api/config.php
+
+# Configuration des IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Fichiers uploadés par les utilisateurs
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Fichiers techniques / personnels
+technique/*
